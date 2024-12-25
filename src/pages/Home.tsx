@@ -62,12 +62,12 @@ export default function Home() {
           <p className="text-lg sm:text-xl text-white mb-6 sm:mb-8 opacity-90">
             Experience the future of transportation with Malama's electric cab service
           </p>
-          <Link
+          {/* <Link
             to="/services"
             className="inline-block bg-yellow-400 text-blue-800 font-bold py-3 px-8 rounded-full hover:bg-yellow-300 hover:transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
           >
             Book a Ride
-          </Link>
+          </Link> */}
         </div>
       </section>
 

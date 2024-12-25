@@ -34,9 +34,9 @@ export default function Contact() {
         <div className="w-full md:w-1/2 px-4">
           <div className="bg-white bg-opacity-10 p-6 rounded-lg shadow-lg space-y-6">
             {[
-              { Icon: MapPin, text: '123 Blue Street, Bengaluru, Karnataka 560001' },
-              { Icon: PhoneCall, text: '+91 80 1234 5678' },
-              { Icon: Mail, text: 'info@malamacabs.com' },
+              { Icon: MapPin, text: 'Hosa Road, Bengaluru, Karnataka 560100' },
+              { Icon: PhoneCall, text: '+91 797 56 12340' },
+              { Icon: Mail, text: 'care@malamacabs.com' },
             ].map(({ Icon, text }, index) => (
               <div key={index} className="flex items-center group">
                 <Icon className="text-yellow-400 w-6 h-6 mr-3 flex-shrink-0 group-hover:scale-110 transition-transform duration-300" />
