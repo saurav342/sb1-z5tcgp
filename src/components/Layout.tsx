@@ -13,10 +13,12 @@ export default function Layout({ children }: LayoutProps) {
   const location = useLocation();
 
   const navigation = [
+    { name: 'Home', path: '/' },
     { name: 'About', path: '/about' },
     { name: 'Services', path: '/services' },
     { name: 'Careers', path: '/careers' },
     { name: 'Contact', path: '/contact' },
+    { name: 'Privacy Policy', path: '/privacy-policy' },
   ];
 
   const toggleMenu = () => {
