@@ -2,6 +2,7 @@ import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { Zap, Menu, X } from 'lucide-react';
 import ScrollToTop from './ScrollToTop';
+import Footer from './Footer';
 
 interface LayoutProps {
   children: React.ReactNode;
@@ -80,11 +81,7 @@ export default function Layout({ children }: LayoutProps) {
         {children}
       </main>
 
-      <footer className="bg-blue-900 text-white py-8">
-        <div className="container mx-auto px-4 text-center">
-          <p className="opacity-90">&copy; 2024 Malama. All rights reserved.</p>
-        </div>
-      </footer>
+      <Footer />
 
       <ScrollToTop />
     </div>
